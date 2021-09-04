@@ -96,6 +96,9 @@ p{
     max-width: 1300px;
     padding: 0 10px;
 }
+#header .brand{
+    margin-right: 35%;
+}
 #header .nav-list ul{
     list-style: none;
     position: absolute;
