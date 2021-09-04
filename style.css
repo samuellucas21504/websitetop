@@ -96,22 +96,20 @@ p{
     max-width: 1300px;
     padding: 0 10px;
 }
-#header .brand{
-    margin-right: 35%;
-}
+
 #header .nav-list ul{
     list-style: none;
     position: absolute;
     background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vh;
-    left: 100%;
+    left: 100vh;
     top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: -10;
     overflow-x: hidden;
     transition: .5s ease left;
 }
@@ -277,8 +275,9 @@ p{
     padding: 100px 0;
 }
 #product .products-top{
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
+
 }
 
 #product .products-bottom{
@@ -383,7 +382,7 @@ p{
     margin: 1rem 0;
 }
 #contact .contact-items{
-    width: 400px;
+    max-width: 400px;
     padding: 30px;
 }
 #contact .contact-item{
@@ -588,6 +587,9 @@ p{
     }
     #header .nav-list ul a::after {
         display: none;
+    }
+    #header .brand{
+        margin-right: 35%;
     }
     /* End Header */
 
